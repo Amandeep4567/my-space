@@ -6,12 +6,13 @@ export default function NavMenu() {
   return (
     <nav className={styles.nav}>
       <Link href={"/"}>
-        <Image
+        {/* <Image
           src="/logo.svg" // Route of the image file
           width={216}
           height={30}
           alt="NextSpace Logo"
-        />
+        /> */}
+        MY-SPace
       </Link>
       <ul className={styles.links}>
         <li>
